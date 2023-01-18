@@ -1,0 +1,3 @@
+[submodule "SampleUtilities"]
+	path = SampleUtilities
+	url = git@github.com:Dang-Huu-Tri/SampleUtilities.git
