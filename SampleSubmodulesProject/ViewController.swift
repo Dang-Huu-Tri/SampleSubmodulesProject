@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let test = GCVolumeInfo(volumeName: "", volumeDirectory: "")
         // Do any additional setup after loading the view.
     }
 

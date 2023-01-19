@@ -16,6 +16,16 @@
 		B26BE06E2977A6EB004B440F /* SampleSubmodulesProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BE06D2977A6EB004B440F /* SampleSubmodulesProjectTests.swift */; };
 		B26BE0782977A6EB004B440F /* SampleSubmodulesProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BE0772977A6EB004B440F /* SampleSubmodulesProjectUITests.swift */; };
 		B26BE07A2977A6EB004B440F /* SampleSubmodulesProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26BE0792977A6EB004B440F /* SampleSubmodulesProjectUITestsLaunchTests.swift */; };
+		B27C49A62979D11800C10B57 /* GCDeviceModelIdentifier+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C499C2979D11800C10B57 /* GCDeviceModelIdentifier+Extension.swift */; };
+		B27C49A72979D11800C10B57 /* GCDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C499D2979D11800C10B57 /* GCDeviceModel.swift */; };
+		B27C49A82979D11800C10B57 /* CGAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C499E2979D11800C10B57 /* CGAppearance.swift */; };
+		B27C49A92979D11800C10B57 /* GCVolumeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C499F2979D11800C10B57 /* GCVolumeInfo.swift */; };
+		B27C49AA2979D11800C10B57 /* GCAppDirectories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A02979D11800C10B57 /* GCAppDirectories.swift */; };
+		B27C49AB2979D11800C10B57 /* CGByteCountUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A12979D11800C10B57 /* CGByteCountUnit.swift */; };
+		B27C49AC2979D11800C10B57 /* CGCarrierInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A22979D11800C10B57 /* CGCarrierInfo.swift */; };
+		B27C49AD2979D11800C10B57 /* CGBatteryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A32979D11800C10B57 /* CGBatteryState.swift */; };
+		B27C49AE2979D11800C10B57 /* ReceiptType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A42979D11800C10B57 /* ReceiptType.swift */; };
+		B27C49AF2979D11800C10B57 /* GCDeviceModelIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A52979D11800C10B57 /* GCDeviceModelIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		B26BE0732977A6EB004B440F /* SampleSubmodulesProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSubmodulesProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26BE0772977A6EB004B440F /* SampleSubmodulesProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmodulesProjectUITests.swift; sourceTree = "<group>"; };
 		B26BE0792977A6EB004B440F /* SampleSubmodulesProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubmodulesProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B27C499C2979D11800C10B57 /* GCDeviceModelIdentifier+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GCDeviceModelIdentifier+Extension.swift"; path = "SampleNetworkInfo/NetworkInfo/Classes/Entity/GCDeviceModelIdentifier+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		B27C499D2979D11800C10B57 /* GCDeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GCDeviceModel.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/GCDeviceModel.swift; sourceTree = SOURCE_ROOT; };
+		B27C499E2979D11800C10B57 /* CGAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGAppearance.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/CGAppearance.swift; sourceTree = SOURCE_ROOT; };
+		B27C499F2979D11800C10B57 /* GCVolumeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GCVolumeInfo.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/GCVolumeInfo.swift; sourceTree = SOURCE_ROOT; };
+		B27C49A02979D11800C10B57 /* GCAppDirectories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GCAppDirectories.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/GCAppDirectories.swift; sourceTree = SOURCE_ROOT; };
+		B27C49A12979D11800C10B57 /* CGByteCountUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGByteCountUnit.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/CGByteCountUnit.swift; sourceTree = SOURCE_ROOT; };
+		B27C49A22979D11800C10B57 /* CGCarrierInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGCarrierInfo.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/CGCarrierInfo.swift; sourceTree = SOURCE_ROOT; };
+		B27C49A32979D11800C10B57 /* CGBatteryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGBatteryState.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/CGBatteryState.swift; sourceTree = SOURCE_ROOT; };
+		B27C49A42979D11800C10B57 /* ReceiptType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReceiptType.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/ReceiptType.swift; sourceTree = SOURCE_ROOT; };
+		B27C49A52979D11800C10B57 /* GCDeviceModelIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GCDeviceModelIdentifier.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/GCDeviceModelIdentifier.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		B26BE0552977A6EA004B440F /* SampleSubmodulesProject */ = {
 			isa = PBXGroup;
 			children = (
+				B27C499A2979D0FE00C10B57 /* Submodules */,
 				B26BE0562977A6EA004B440F /* AppDelegate.swift */,
 				B26BE0582977A6EA004B440F /* SceneDelegate.swift */,
 				B26BE05A2977A6EA004B440F /* ViewController.swift */,
@@ -125,6 +146,31 @@
 				B26BE0792977A6EB004B440F /* SampleSubmodulesProjectUITestsLaunchTests.swift */,
 			);
 			path = SampleSubmodulesProjectUITests;
+			sourceTree = "<group>";
+		};
+		B27C499A2979D0FE00C10B57 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				B27C499B2979D10300C10B57 /* NetworkInfo */,
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		B27C499B2979D10300C10B57 /* NetworkInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B27C499E2979D11800C10B57 /* CGAppearance.swift */,
+				B27C49A32979D11800C10B57 /* CGBatteryState.swift */,
+				B27C49A12979D11800C10B57 /* CGByteCountUnit.swift */,
+				B27C49A22979D11800C10B57 /* CGCarrierInfo.swift */,
+				B27C49A02979D11800C10B57 /* GCAppDirectories.swift */,
+				B27C499D2979D11800C10B57 /* GCDeviceModel.swift */,
+				B27C49A52979D11800C10B57 /* GCDeviceModelIdentifier.swift */,
+				B27C499C2979D11800C10B57 /* GCDeviceModelIdentifier+Extension.swift */,
+				B27C499F2979D11800C10B57 /* GCVolumeInfo.swift */,
+				B27C49A42979D11800C10B57 /* ReceiptType.swift */,
+			);
+			path = NetworkInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27C49A92979D11800C10B57 /* GCVolumeInfo.swift in Sources */,
+				B27C49AF2979D11800C10B57 /* GCDeviceModelIdentifier.swift in Sources */,
+				B27C49AD2979D11800C10B57 /* CGBatteryState.swift in Sources */,
+				B27C49AB2979D11800C10B57 /* CGByteCountUnit.swift in Sources */,
+				B27C49AA2979D11800C10B57 /* GCAppDirectories.swift in Sources */,
+				B27C49A62979D11800C10B57 /* GCDeviceModelIdentifier+Extension.swift in Sources */,
 				B26BE05B2977A6EA004B440F /* ViewController.swift in Sources */,
+				B27C49AE2979D11800C10B57 /* ReceiptType.swift in Sources */,
 				B26BE0572977A6EA004B440F /* AppDelegate.swift in Sources */,
+				B27C49AC2979D11800C10B57 /* CGCarrierInfo.swift in Sources */,
+				B27C49A82979D11800C10B57 /* CGAppearance.swift in Sources */,
+				B27C49A72979D11800C10B57 /* GCDeviceModel.swift in Sources */,
 				B26BE0592977A6EA004B440F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

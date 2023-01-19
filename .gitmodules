@@ -1,3 +1,6 @@
 [submodule "SampleUtilities"]
 	path = SampleUtilities
 	url = git@github.com:Dang-Huu-Tri/SampleUtilities.git
+[submodule "SampleNetworkInfo"]
+	path = SampleNetworkInfo
+	url = git@github.com:Dang-Huu-Tri/SampleNetworkInfo.git
