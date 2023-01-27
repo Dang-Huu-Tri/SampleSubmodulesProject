@@ -1,0 +1,6 @@
+framework module Pods_NetworkInfo_Example {
+  umbrella header "Pods-NetworkInfo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
