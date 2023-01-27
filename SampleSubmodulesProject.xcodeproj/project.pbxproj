@@ -26,6 +26,10 @@
 		B27C49AD2979D11800C10B57 /* CGBatteryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A32979D11800C10B57 /* CGBatteryState.swift */; };
 		B27C49AE2979D11800C10B57 /* ReceiptType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A42979D11800C10B57 /* ReceiptType.swift */; };
 		B27C49AF2979D11800C10B57 /* GCDeviceModelIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49A52979D11800C10B57 /* GCDeviceModelIdentifier.swift */; };
+		B27C49B52979D38B00C10B57 /* Data+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49B12979D38B00C10B57 /* Data+Crypto.swift */; };
+		B27C49B62979D38B00C10B57 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49B22979D38B00C10B57 /* Optional+Extension.swift */; };
+		B27C49B72979D38B00C10B57 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49B32979D38B00C10B57 /* String+extension.swift */; };
+		B27C49B82979D38B00C10B57 /* UIDevice+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C49B42979D38B00C10B57 /* UIDevice+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		B27C49A32979D11800C10B57 /* CGBatteryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGBatteryState.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/CGBatteryState.swift; sourceTree = SOURCE_ROOT; };
 		B27C49A42979D11800C10B57 /* ReceiptType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReceiptType.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/ReceiptType.swift; sourceTree = SOURCE_ROOT; };
 		B27C49A52979D11800C10B57 /* GCDeviceModelIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GCDeviceModelIdentifier.swift; path = SampleNetworkInfo/NetworkInfo/Classes/Entity/GCDeviceModelIdentifier.swift; sourceTree = SOURCE_ROOT; };
+		B27C49B12979D38B00C10B57 /* Data+Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+Crypto.swift"; path = "SampleNetworkInfo/SampleUtilities/SampleUtilities/Classes/Utilities/Extension/Data+Crypto.swift"; sourceTree = SOURCE_ROOT; };
+		B27C49B22979D38B00C10B57 /* Optional+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Optional+Extension.swift"; path = "SampleNetworkInfo/SampleUtilities/SampleUtilities/Classes/Utilities/Extension/Optional+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		B27C49B32979D38B00C10B57 /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+extension.swift"; path = "SampleNetworkInfo/SampleUtilities/SampleUtilities/Classes/Utilities/Extension/String+extension.swift"; sourceTree = SOURCE_ROOT; };
+		B27C49B42979D38B00C10B57 /* UIDevice+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIDevice+extension.swift"; path = "SampleNetworkInfo/SampleUtilities/SampleUtilities/Classes/Utilities/Extension/UIDevice+extension.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,7 @@
 		B27C499A2979D0FE00C10B57 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
+				B27C49B02979D36B00C10B57 /* Utilities */,
 				B27C499B2979D10300C10B57 /* NetworkInfo */,
 			);
 			path = Submodules;
@@ -171,6 +180,17 @@
 				B27C49A42979D11800C10B57 /* ReceiptType.swift */,
 			);
 			path = NetworkInfo;
+			sourceTree = "<group>";
+		};
+		B27C49B02979D36B00C10B57 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B27C49B12979D38B00C10B57 /* Data+Crypto.swift */,
+				B27C49B22979D38B00C10B57 /* Optional+Extension.swift */,
+				B27C49B32979D38B00C10B57 /* String+extension.swift */,
+				B27C49B42979D38B00C10B57 /* UIDevice+extension.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,12 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B27C49B72979D38B00C10B57 /* String+extension.swift in Sources */,
 				B27C49A92979D11800C10B57 /* GCVolumeInfo.swift in Sources */,
 				B27C49AF2979D11800C10B57 /* GCDeviceModelIdentifier.swift in Sources */,
 				B27C49AD2979D11800C10B57 /* CGBatteryState.swift in Sources */,
+				B27C49B82979D38B00C10B57 /* UIDevice+extension.swift in Sources */,
 				B27C49AB2979D11800C10B57 /* CGByteCountUnit.swift in Sources */,
 				B27C49AA2979D11800C10B57 /* GCAppDirectories.swift in Sources */,
 				B27C49A62979D11800C10B57 /* GCDeviceModelIdentifier+Extension.swift in Sources */,
+				B27C49B52979D38B00C10B57 /* Data+Crypto.swift in Sources */,
+				B27C49B62979D38B00C10B57 /* Optional+Extension.swift in Sources */,
 				B26BE05B2977A6EA004B440F /* ViewController.swift in Sources */,
 				B27C49AE2979D11800C10B57 /* ReceiptType.swift in Sources */,
 				B26BE0572977A6EA004B440F /* AppDelegate.swift in Sources */,
