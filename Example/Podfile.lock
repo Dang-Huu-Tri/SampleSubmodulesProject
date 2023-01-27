@@ -1,0 +1,16 @@
+PODS:
+  - NetworkInfo (0.1.0)
+
+DEPENDENCIES:
+  - NetworkInfo (from `../`)
+
+EXTERNAL SOURCES:
+  NetworkInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NetworkInfo: 5983507d576cf7fa225d2478b94cc08428206820
+
+PODFILE CHECKSUM: 8f8d22fc3989c84d01ea58ea472872f1604ebc99
+
+COCOAPODS: 1.11.3
