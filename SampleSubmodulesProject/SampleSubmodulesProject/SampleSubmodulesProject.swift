@@ -6,5 +6,7 @@
 //
 
 open class SampleSubmodulesProject {
-    public var sampleString: String = "test A"
+    public var sampleString: String = "test SampleSubmodulesProject"
+
+    public init() { }
 }
